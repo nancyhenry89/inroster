@@ -1,7 +1,7 @@
 body{/* color:#fff; */font-family:'Raleway',sans-serif;text-align:center;}
 img{max-width:100%}
 .second-color{color:#1da9e1}
-.section-title{text-align:center;text-transform:uppercase;font-size:38px;letter-spacing:3px;margin-top:100px}
+.section-title{text-align:center;font-size:38px;letter-spacing:3px;margin-top: 80px;font-weight: bold;}
 .contact .section-title{margin-bottom:17px}
 .benefits .section-title{margin-bottom:45px}
 .services .section-title{margin-bottom:60px}
@@ -74,7 +74,8 @@ header .container{padding:0;width:100%}
 .about .desc{font-size:21px;letter-spacing:2px;width:88%;margin:auto;margin-bottom:100px;margin-top:14px}
 .ben-title{font-size:35px;letter-spacing:2px;width:150px;text-transform:uppercase}
 .phones{
-    margin-top: -10px;
+    width: 330px;
+    float: right;
 }
 .iphone{
     background: url(../img/iphone.png);
@@ -87,6 +88,8 @@ header .container{padding:0;width:100%}
     position: relative;
     z-index: 2;
     margin-left: -30px;
+    min-width: 20%;
+    border-radius: 28px;
 }
 .android{
     background: url('../img/android.png');
@@ -98,8 +101,52 @@ header .container{padding:0;width:100%}
     position: relative;
     z-index: 1;
     margin-top: -20px;
+    min-width: 20%;
+    border-radius: 22px;
+}
+.what-section{
+    text-align: left;
+    width: 74%;
+    margin: auto;
+    margin-top: 57px;
+    padding: 0 10px;
+}
+.what-section .title{
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.what-section.yellow{
+    border-left: 3px solid #fabb19;
+}
+.what-section.green{
+    border-left: 3px solid #82c342;
+}
+.what-section.red{
+    border-left: 3px solid #f05326;
+}
+.what-section.yellow .title{
+    color: #fabb19;
+}
+.what-section.green .title{
+    color: #82c342;
+}
+.what-section.red .title{
+    color: #f05326;
+}
+.what-section .desc{
+    font-size: 17px;
+    letter-spacing: 3.4px;
+    margin-bottom: 0;
+    line-height: 18px;
+    color: #505154;
 }
 @media only screen and (max-width: 1023px) {
+    .phones{
+    float: none;
+    left: 50%;
+    margin-left: -165px;
+    position: relative;
+}
     .more{}
     .container.banner{
     border-radius: 0 0 50% 50% / 0 0 50px 50px;
@@ -112,7 +159,7 @@ header .container{padding:0;width:100%}
 .phone{min-height:580px;background-size:contain;background-position:center}
 .benefits{width:95%}
 .benefits .row>div{padding:0 5px}
-.download-cont{/* margin-bottom:50px; */float: left;}
+.download-cont{width: 90%;float: left;left: 5%;position: relative;}
 .ben-items .title{font-size:15px}
 .ben-items .desc{font-size:12px;padding:0;letter-spacing:0;padding-right:5px}
 .ben-title{text-align:center;width:100%;min-height:20px!important;font-size:27px;max-width:100%!important}
