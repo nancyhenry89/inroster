@@ -32,6 +32,10 @@ if($(this).scrollTop() <= $('#home').offset().top) {
     else if($(this).scrollTop() < $('#features').offset().top) {
       $('nav a').removeClass('active');
       $('nav a[href="#features"]').addClass('active');
-  }
+  }else if($(this).scrollTop() < $('#download').offset().top) {
+    $('nav a').removeClass('active');
+
+    $('nav a[href="#download"]').addClass('active');
+}
 
 });
