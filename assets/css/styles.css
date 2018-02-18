@@ -148,7 +148,86 @@ header .container{padding:0;width:100%}
     line-height: 18px;
     color: #505154;
 }
+.features{width: 55%;}
+.feature{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all .5s ease;
+}
+.feature:hover{
+    transform: scale(1.2);
+}
+.feature:hover .desc{opacity:1;transition: all .5s ease;}
+.feature:hover .title{opacity:0;transition: all .5s ease;}
+.feature:hover .icon{opacity:0;transition: all .5s ease;}
+.feature .desc{color:#fff;width: 90%;font-size: 13px;opacity: 0;position: absolute;top: 0;bottom: 0;margin: auto;left: 5%;height: 100%;justify-content: center;align-items: center;display: flex;}
+.feature.red{
+    background: #f05326;
+}
+.feature.l-green{
+    background: #82c342;
+}
+.feature.yellow{
+    background: #fabb19;
+}
+.feature.d-green{
+    background: #066c1d;
+    left: 61px;
+}
+.feature.blue{
+    background: #1da9e1;
+    left: -60px;
+}
+.feature.red:after{
+    border-color: #f05227;
+}
+.feature.l-green:after{
+    border-color: #82c342;
+}
+.feature.yellow:after{
+    border-color: #fbbb19;
+}
+.feature.d-green:after{border-color: #086b1e;}
+.feature.blue:after{border-color: #1da9e1;}
+.feature:after{
+    content:'';
+    border: 2px solid;
+    position:absolute;
+    top: -10px;
+    right: -10px;
+    left: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+}
+.feature .title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.feature .icon{
+    width: 30%;
+    left: 35%;
+    position: relative;
+    padding-top: 10px;
+}
+
 @media only screen and (max-width: 1023px) {
+    .feature.d-green{
+    left: 0;
+}
+    .feature.blue{
+    left: 0;
+}
+    .feature{
+    margin-bottom: 100px;
+}
+    .feature .desc{color: black;position: relative;top: auto;left: -30%;opacity: 1;width: 160%;font-size: 15px;}
     .how .desc{width: 80%;}
     .how-bg,.how{border-radius:50% 50% 0% 0% / 50px 50px 0px 0px}
     .what-section{width:90%}
