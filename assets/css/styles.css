@@ -29,7 +29,7 @@ header .container{padding:0;width:100%}
 .sep{width:28%;margin:auto;height:9px;background:#fff;margin-top:31px}
 .passion{width: 716px;margin:auto;text-align:center;font-size:22px;font-family:'Raleway',sans-serif;letter-spacing:4px;margin-top:24px;line-height:41px;}
 .services-bg{background:url(../img/services-bg.png)}
-.more{margin-top:43px;text-align:center;font-size:21px;letter-spacing:3px;font-family:'Raleway',sans-serif}
+.more{margin-top:43px;text-align:center;font-size:21px;letter-spacing:3px;font-family:'Raleway',sans-serif;float: left;width: 100%;}
 .more .arrow{font-size: 55px;margin-top:-17px;}
 .more .arrow a{color:#fff;transition:all .5s ease}
 .more .arrow a:hover{color: #1da9e1;font-size:70px;}
