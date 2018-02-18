@@ -1,4 +1,4 @@
-body{/* color:#fff; */font-family:'Raleway',sans-serif;text-align:center;}
+body{font-family:'Ubuntu', sans-serif;text-align:center;}
 img{max-width:100%}
 .second-color{color:#1da9e1}
 .section-title{text-align:center;font-size: 48px;letter-spacing: 1px;margin-top: 100px;font-weight: bold;position: relative;margin-bottom: 0;}
@@ -20,7 +20,7 @@ img{max-width:100%}
 .services .section-title{margin-bottom:60px}
 .soon .section-title{margin-bottom:40px}
 .second-bc{background-color:#007dc5}
-.btn{transition:all .5s ease;font-family:'Oswald',sans-serif}
+.btn{transition:all .5s ease;}
 .btn:hover{background:#078ada;color:#fff}
 .banner-bg{background-image:url(../img/main-bg.png);height:826px;position: relative;border-radius: 0 0 50% 50% / 0 0 190px 190px;width: 120%;left: -10%;}
 .how-bg{background-image:url(../img/how-bg.png);width: 120%;position: relative;left: -10%;border-radius: 50% 50% 0% 0% / 190px 190px 0px 0px;}
@@ -44,16 +44,24 @@ header .container{padding:0;width:100%}
 .navbar-brand{width:250px;height:100%;padding-top:18px}
 .container.banner{width:100%;margin:0;background:rgba(0,0,0,0.8);height:100%;border-radius: 0 0 50% 50% / 0 0 190px 190px;}
 .navbar-nav>li{font-size: 12px;margin-top:26px;text-transform:uppercase;text-align:center;width: calc(100% / 7);}
+.navbar-nav>li.nav-img a{
+    padding-top: 3px;
+    height: 60px;
+}
+.navbar-nav>li.nav-img a img{
+    height: 100%;
+}
 .navbar-default .navbar-nav>li>a{color:#fff;transition:all .5s ease}
+.navbar-default .navbar-nav>li>a.active{color: #1da9e1;}
 .navbar-default .navbar-nav>li>a:hover{color: #1da9e1;}
 .navbar-nav{height:100%;width: 80%;margin: auto;float: none;max-width: 1024px;}
 .logo{width: 255px;margin:auto;margin-top: 120px;max-width:100%;}
 .logo img{width:100%}
-.slogan{width: 454px;font-size: 17px;letter-spacing: 1px;margin-top: 64px;max-width: 90%;color: #fff;text-align: justify;line-height: 29px;background: rgba(0,0,0,0.5);padding: 20px;}
+.slogan{width: 454px;font-size: 17px;letter-spacing: 1px;margin-top: 64px;max-width: 90%;color: #fff;text-align: left;line-height: 29px;background: rgba(0,0,0,0.5);padding: 20px;text-align: justify;}
 .sep{width:28%;margin:auto;height:9px;background:#fff;margin-top:31px}
-.passion{width: 716px;margin:auto;text-align:center;font-size:22px;font-family:'Raleway',sans-serif;letter-spacing:4px;margin-top:24px;line-height:41px;}
+.passion{width: 716px;margin:auto;text-align:center;font-size:22pxq;letter-spacing:4px;margin-top:24px;line-height:41px;}
 .services-bg{background:url(../img/services-bg.png)}
-.more{margin-top:43px;text-align:center;font-size:21px;letter-spacing:3px;font-family:'Raleway',sans-serif;float: left;width: 100%;}
+.more{margin-top:43px;text-align:center;font-size:21px;letter-spacing:3px;float: left;width: 100%;}
 .more .arrow{font-size: 55px;margin-top:-17px;}
 .more .arrow a{color:#fff;transition:all .5s ease}
 .more .arrow a:hover{color: #1da9e1;font-size:70px;}
@@ -67,16 +75,15 @@ header .container{padding:0;width:100%}
 .for-rest.ben-items{text-align:left}
 .form *{width:100%}
 .form input,.form textarea{border:1px solid #686466;background-color:rgba(0,0,0,0.6)}
-.service .desc{font-family:'Raleway',sans-serif;font-size:17px;width:250px;margin:auto;margin-bottom:100px;max-width:100%}
-.ben-items .desc{font-family:'Raleway',sans-serif;font-size:20px;letter-spacing:2px}
+.service .desc{font-size:17px;width:250px;margin:auto;margin-bottom:100px;max-width:100%}
 .services{width:100%;background:rgba(0,0,0,0.8)}
-.contact-details{font-family:'Raleway',sans-serif;font-size:23px;letter-spacing:2px}
+.contact-details{font-size:23px;letter-spacing:2px}
 .contact-details p{margin:0}
 .contact-details p i{margin-top: 10px;width: 50px;color: #fff;transition: all .5s ease;}
 .contact-details p a{color:#fff;transition: all .5s ease;}
 .contact-details p a:hover{text-decoration: none;color: #047cc5;}
 .contact-details p a:hover i{color: #047cc5}
-.form{font-family:'Raleway',sans-serif;width: 385px;margin:auto;max-width:100%;}
+.form{width: 385px;margin:auto;max-width:100%;}
 .aim{font-size:42px;margin-top:38px;letter-spacing:3px;line-height:50px;text-transform:uppercase;margin-bottom:100px}
 .copy-rights{text-align:right;margin-bottom: 30px;}
 .form .btn{margin-top:53px;height:62px;width:289px;max-width:90%;font-size:35px;letter-spacing:2px}
@@ -88,7 +95,7 @@ header .container{padding:0;width:100%}
 .service .icon{width:114px;margin:auto}
 .service .title{text-transform:uppercase;font-size:28px;margin-top:15px;margin-bottom:15px}
 .service .icon img:hover{-webkit-transform:rotate(360deg) scale(1.2);transform:rotate(360deg) scale(1.2)}
-.navbar-default .navbar-nav>li>a:focus{color:#fff}
+.navbar-default .navbar-nav>li>a:focus{color: #1da9e1;}
 .what{margin-bottom: 40px;}
 .download-item{width: 209px;float:left;height:80px;margin-left:20px;margin-bottom: -30px;}
 .download-item img{width:100%}
@@ -158,10 +165,11 @@ header .container{padding:0;width:100%}
 }
 .what-section .desc{
     font-size: 17px;
-    letter-spacing: 3.4px;
+    letter-spacing: unset;
     margin-bottom: 0;
     line-height: 18px;
     color: #505154;
+    text-align: justify;
 }
 .features{width: 55%;margin-bottom: 60px;}
 .feature{
@@ -233,6 +241,8 @@ header .container{padding:0;width:100%}
 }
 
 @media only screen and (max-width: 1023px) {
+    .feature:hover .title{opacity:1}
+    .feature:hover .icon{opacity:1}
     .feature.d-green{
     left: 0;
 }
@@ -241,6 +251,9 @@ header .container{padding:0;width:100%}
 }
     .feature{
     margin-bottom: 100px;
+}
+.feature:hover{
+    transform: scale(1);
 }
     .feature .desc{color: black;position: relative;top: auto;left: -30%;opacity: 1;width: 160%;font-size: 15px;}
     .how .desc{width: 80%;}
@@ -275,7 +288,7 @@ header .container{padding:0;width:100%}
 .navbar-default .navbar-brand{width:200px;padding-top:7px}
 .navbar-default{height:60px;padding:0}
 
-.container-fluid>.navbar-collapse{height:208px;background:#000;padding:0}
+.container-fluid>.navbar-collapse{height: 313px;background:#000;padding:0;}
 .navbar-nav>li{padding:0;margin:0;font-size:16px;width:100%;border-bottom:1px solid #676366;transition:all .5s ease}
 .navbar-nav{width:100%;margin:0;padding:0}
 .navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle{background:#050608;border:0}
