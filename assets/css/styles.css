@@ -76,6 +76,8 @@ header .container{padding:0;width:100%}
 .aim{font-size:42px;margin-top:38px;letter-spacing:3px;line-height:50px;text-transform:uppercase;margin-bottom:100px}
 .copy-rights{text-align:right;margin-bottom:30px}
 .form .btn{margin-top:53px;height:49px;width:214px;max-width:90%;font-size:26px;letter-spacing:2px;border-radius:11px}
+.form .btn a{color: #fff}
+.form .btn a:hover{text-decoration:none}
 .form input{height:62px;font-size:20px;padding:0 24px}
 .form textarea{height:145px;font-size:20px;padding:21px}
 .form .title{margin-top:40px;font-size:20px;letter-spacing:3px}
@@ -130,7 +132,7 @@ header .container{padding:0;width:100%}
 .feature .icon{width:30%;left:35%;position:relative;padding-top:10px}
 .stats-img{background:url(../img/bar-chart.png);width:100%;height:260px;background-repeat:no-repeat;background-position:center center;position:relative;max-width:100%}
 .stat-item{margin-top:0;float:left;width:100%;height:90px;justify-content:flex-end;align-items:center;display:flex;margin-bottom:79px}
-.stat-item .title{float:left;width:50%;font-size:26px;font-weight:700;position:relative;padding-right:20px;justify-content:flex-end;align-items:center;display:flex}
+.stat-item .title{float:left;width:50%;font-size:26px;font-weight:700;position:relative;padding-right:20px;justify-content:flex-end;align-items:center;display:flex;margin-top: 0;margin-bottom: 0;}
 .stat-item .title:before{content:"";position:absolute;height:90px;width:4px;right:0}
 .stat-item.events .title:before{background:#81c342}
 .stat-item.attend .title:before{background:#f05227}
