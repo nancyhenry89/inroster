@@ -34,8 +34,15 @@ if($(this).scrollTop() <= $('#home').offset().top) {
       $('nav a[href="#features"]').addClass('active');
   }else if($(this).scrollTop() < $('#download').offset().top) {
     $('nav a').removeClass('active');
-
     $('nav a[href="#download"]').addClass('active');
+}
+else if($(this).scrollTop() < $('#stats').offset().top) {
+  $('nav a').removeClass('active');
+  $('nav a[href="#stats"]').addClass('active');
+}
+else if($(this).scrollTop() < $('#contact').offset().top) {
+  $('nav a').removeClass('active');
+  $('nav a[href="#contact"]').addClass('active');
 }
 
 });

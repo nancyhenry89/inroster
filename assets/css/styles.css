@@ -13,6 +13,11 @@ img{max-width:100%}
     background: #fff;
     margin-left: -150px;
 }
+.contact .section-title:after{
+    width: 220px;
+    background: #fff;
+    margin-left: -110px;
+}
 .how .section-title:after{
     background: #ffffff;
     width: 290px;
@@ -20,18 +25,19 @@ img{max-width:100%}
 }
 .what .section-title{margin-bottom:60px}
 .features .section-title{margin-bottom:40}
+.contact .section-title{margin-bottom:40}
 .stats .section-title{margin-bottom:40px}
 .features .section-title:after{width: 180px;background: #1da9e1;margin-left: -90px;}
 .stats .section-title:after{width: 180px;background: #1da9e1;margin-left: -90px;}
 
-.contact .section-title{margin-bottom:17px}
 .services .section-title{margin-bottom:60px}
 .soon .section-title{margin-bottom:40px}
-.second-bc{background-color:#007dc5}
+.second-bc{background-color: #1da9e1;}
 .btn{transition:all .5s ease;}
 .btn:hover{background:#078ada;color:#fff}
 .banner-bg{background-image:url(../img/main-bg.png);height:826px;position: relative;border-radius: 0 0 50% 50% / 0 0 190px 190px;width: 120%;left: -10%;}
 .download-bg{background-image:url(../img/download-bg.png);}
+.contact-bg{background-image:url(../img/contact-bg.png);}
 
 .how-bg{background-image:url(../img/how-bg.png);width: 120%;position: relative;left: -10%;border-radius: 50% 50% 0% 0% / 190px 190px 0px 0px;}
 .container-fluid.main-content{padding:0;overflow: hidden;}
@@ -75,7 +81,7 @@ header .container{padding:0;width:100%}
 .more .arrow{font-size: 55px;margin-top:-17px;}
 .more .arrow a{color:#fff;transition:all .5s ease}
 .more .arrow a:hover{color: #1da9e1;font-size:70px;}
-.contact{background:rgba(0,0,0,0.8);width:100%}
+.contact{background: rgba(0,0,0,0.7);width:100%;color: #fff;padding-bottom: 60px;}
 .phone{background:url(../img/phone-app.png);background-size:contain;min-height: 640px;background-repeat:no-repeat;background-position:center 0;}
 .for-clients.ben-items{text-align:right;padding-right:30px;}
 .for-clients .ben-title{float:right}
@@ -89,17 +95,35 @@ header .container{padding:0;width:100%}
 .services{width:100%;background:rgba(0,0,0,0.8)}
 .contact-details{font-size:23px;letter-spacing:2px}
 .contact-details p{margin:0}
-.contact-details p i{margin-top: 10px;width: 50px;color: #fff;transition: all .5s ease;}
+.contact-details p i{margin-top: 10px;width: 42px;color: #fff;transition: all .5s ease;font-size: 29px;height: 42px;border-radius: 50%;line-height: 41px;margin-right: 2px;margin-left: 2px;}
+.contact-details p i.fa-instagram{
+    background: #d3066a;
+}
+.contact-details p i.fa-facebook{
+    background: #465993;
+}
+.contact-details p i.fa-twitter{
+    background: #75a9eb;
+}
+.contact-details p i.fa-snapchat{
+    background: #ffeb3b;
+}
+.contact-details p i.fa-youtube{
+    background: #f61c0d;
+}
+.contact-details p i.fa-globe{
+    background: #91d5f0;
+}
 .contact-details p a{color:#fff;transition: all .5s ease;}
 .contact-details p a:hover{text-decoration: none;color: #047cc5;}
-.contact-details p a:hover i{color: #047cc5}
+.contact-details p a:hover i{color: #ffffff;transform: scale(1.2);}
 .form{width: 385px;margin:auto;max-width:100%;}
 .aim{font-size:42px;margin-top:38px;letter-spacing:3px;line-height:50px;text-transform:uppercase;margin-bottom:100px}
 .copy-rights{text-align:right;margin-bottom: 30px;}
-.form .btn{margin-top:53px;height:62px;width:289px;max-width:90%;font-size:35px;letter-spacing:2px}
+.form .btn{margin-top:53px;height: 49px;width: 214px;max-width:90%;font-size: 26px;letter-spacing:2px;border-radius: 11px;}
 .form input{height: 62px;font-size: 20px;padding:0 24px;}
 .form textarea{height: 145px;font-size: 20px;padding:21px;}
-.form .title{margin-top:40px;font-size:26px}
+.form .title{margin-top:40px;font-size: 20px;letter-spacing:  3px;}
 .ben-cont-bg{background-image:url(../img/ben-bg.png)}
 .service .icon img{-webkit-transition:.5s ease;transition:.5s ease;width:100%}
 .service .icon{width:114px;margin:auto}
