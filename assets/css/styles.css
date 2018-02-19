@@ -20,7 +20,10 @@ img{max-width:100%}
 }
 .what .section-title{margin-bottom:60px}
 .features .section-title{margin-bottom:40}
+.stats .section-title{margin-bottom:40px}
 .features .section-title:after{width: 180px;background: #1da9e1;margin-left: -90px;}
+.stats .section-title:after{width: 180px;background: #1da9e1;margin-left: -90px;}
+
 .contact .section-title{margin-bottom:17px}
 .services .section-title{margin-bottom:60px}
 .soon .section-title{margin-bottom:40px}
@@ -266,8 +269,55 @@ header .container{padding:0;width:100%}
     position: relative;
     padding-top: 10px;
 }
-
+.stats-img{
+    background: url(../img/bar-chart.png);
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+    max-width: 100%;
+}
+.stat-item{margin-top: 0;float: left;width: 100%;height: 90px;justify-content: flex-end;align-items: center;display: flex;margin-bottom: 79px;}
+.stat-item .title{float: left;width: 50%;font-size: 26px;font-weight: bold;position: relative;padding-right: 20px;justify-content: flex-end;align-items: center;display: flex;}
+.stat-item .title:before{
+    content:"";
+    position:absolute;
+    height: 90px;
+    width:4px;
+    right:0;
+}
+.stat-item.events .title:before{
+    background: #81c342;
+}
+.stat-item.attend .title:before{
+    background: #f05227;
+}
+.stat-item .number{text-align:left;width: 50%;float: left;font-size: 60px;padding-left: 20px;font-weight: bold;}
+.stat-item.events{color:#81c343}
+.stat-item.attend{color:#f05326}
+.stats-img:before{
+    content:"";
+    position: absolute;
+    width: 4px;
+    height: 260px;
+    background: #20a9de;
+    right: 0;
+    top: 50%;
+    margin-top: -130px;
+}
+.stats{width: 65%;max-width: 1170px;}
 @media only screen and (max-width: 1023px) {
+    .stat-item .title{width:100%;display: block;/* border-bottom: 4px solid; */padding: 0;justify-content: center;}
+    .stat-item{display:block;margin-bottom: 60px;}
+    .stat-item .title:before{display:none}
+    .stat-item .number{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+    .stats{width:100%}
+    .stats-img:before{display:none}
     .feature:hover .title{opacity:1}
     .feature:hover .icon{opacity:1}
     .feature.d-green{
